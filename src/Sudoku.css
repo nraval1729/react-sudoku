@@ -1,0 +1,30 @@
+.Sudoku {
+    text-align: center;
+}
+
+.Board {
+	border-collapse: collapse;
+	cellspacing: 0;
+	cellpadding: 0;
+	width: 80%;
+}
+
+td {
+	margin: 0;
+	padding:0;
+}
+
+.Square {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	border: 0.5px solid black;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	font-size: 28px;
+}
+
+input[type="text"]:disabled{background-color:#ededed;}
